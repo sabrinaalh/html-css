@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda personalizada</title>
+    <style>
+        @font-face{
+            font-family: OldLodon;
+            src: url('./font/OldLondon.ttf');
+            font-weight: normal;
+            font-style: normal;
+        }
+        h1{
+            font-family: 'OldLodon','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+            border: 50px solid transparent;
+            padding: 10px;
+            height: 300px;
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-image-source: url('./img/bordaantigassa.png');
+            border-image-slice: 50;
+            border-image-repeat: stretch;
+        }
+        .borda{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        p{
+            text-align: center;
+            position: relative;
+            bottom: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="borda">
+        <h1>Teste de borda</h1>
+    </div>
+    <p>(Obs: a borda funcionou! &#x1F970)</p>
+    
+</body>
+</html>

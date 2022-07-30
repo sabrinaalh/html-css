@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            background-image: linear-gradient(to top, #ffc8dd,#ffafcc,#cdb4db,#51fbdc,	#2bd1fc);
+        }
+        header{
+            background-color: #c04df9;
+            padding: 15px 0;
+            margin:0
+        }
+        h1{
+            text-align: center;
+            color: #ffcc00;
+            text-shadow:3px 3px orangered;
+        }
+        nav{
+            background-color:#2bd1fc;
+            height: 30px;
+            padding: 3px;
+            margin: 10px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            height: 100%;
+            border-radius: 20px;
+            padding: 0 10px 10px 10px;
+
+        }
+        nav > a:hover{
+           background-color: #ffcc00;
+           color: white;
+           
+        }
+        main{
+            margin: 10px;
+            padding: 10px;
+        }
+        p > small{
+            color: #90e0ef;
+            opacity: 0.5;
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0;
+        }
+        article{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gatinhos que fazem Café</h1>
+        <nav>
+            <a href="#">"Casa"</a>
+            <a href="#">Sobre</a>
+            <a href="#">Como Ajudar</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Casa">
+            <article>
+                <h2>Sobre os Gatinhos(que fazem café)</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit suscipit esse dolorem. Animi nam maxime, laboriosam autem placeat porro ratione quas eius labore perferendis sunt pariatur voluptas facere eligendi quae.</p>
+                
+                <aside>
+                    <p>Artigo escrito por...</p>
+                </aside>
+
+        </section>
+        <section id="Sobre">
+            <article>
+                <h2>Sobre os Gatinhos(que fazem café)</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit suscipit esse dolorem. Animi nam maxime, laboriosam autem placeat porro ratione quas eius labore perferendis sunt pariatur voluptas facere eligendi quae.</p>
+
+                <aside>
+                    <p>Artigo escrito por...</p>
+                </aside>
+            </article>
+
+        </section>
+        <section id="Ajuda">
+            <article>
+                <h2>Sobre os Gatinhos(que fazem café)</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit suscipit esse dolorem. Animi nam maxime, laboriosam autem placeat porro ratione quas eius labore perferendis sunt pariatur voluptas facere eligendi quae.</p>
+                
+                <aside>
+                    <p>Artigo escrito por...</p>
+                </aside>
+        </section>
+    </main>
+    <footer>
+        <p><strong>Desenvolvido por @Sabrinaalh</strong></p>
+        <p><small>Todos os direito reservados desde...sempre.</small></p>
+    </footer>
+    
+</body>
+</html>

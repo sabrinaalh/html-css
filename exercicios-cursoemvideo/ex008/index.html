@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+
+<body>
+    <h1 style="color:deeppink ;">Outras formatações</h1>
+    <h2 style="color: darkviolet;">Código-fonte/Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript <br>
+        (<small>Envelopado no comando &lt;code&gt; com a fonte</small> <code>monoespaçada</code>).</p>
+ <pre>
+   <code>
+    num=int (input)('Digite um número'))
+    if num % 2 == 0:
+        print(f' O número {num} é PAR)
+    else:
+        print(f' número {num} é ÍMPAR')
+    print ('Fim do programa')
+
+    </code>
+</pre>
+
+<h2 style="color: darkviolet;">Citações Simples</h2>
+    <p>
+         Como diria um pai de um amigo: <q>o computador é um burro muito rápido</q>. 
+    <br>(OBS:Nesta citação, foi usada a tag <strong>&lt;q&gt;</strong> para as "aspas", porque elas remetem um sentido. Em outros casos, utiliza-se apenas das "aspas" que conhecemos.)
+    </p>
+    <h2 style="color: darkviolet;">Citações Completas</h2>
+    <p>Segundo Michael G. Solomon, no seu livro Análise de dados e Blockchain para Leigos:
+<blockquote cite="https://www.google.com.br/books/edition/An%C3%A1lise_de_dados_com_Blockchain_Para_Le/RHJPEAAAQBAJ?hl=pt-BR&gbpv=1&dq=livros+gratuitos+google+para+leigos&pg=PT71&printsec=frontcover">
+    Blockchain é uma tecnologia disruptiva em rápido crescimento que habilita o compartilhamento de dados verificados com um conjunto de partes que não precisam confiar umas nas outras.
+</blockquote>
+    </p>
+    <p>(OBS:Para fazer isso, abra a tag &lt;blockquote&gt; e,se preferir, insira dentro dela 'cite=""' onde vc pode inserir o <ins>link</ins> do livro gratuito ou da compra dele.)</p>
+
+    <h2 style="color: darkviolet;">Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language"> HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Tá f0d4 &#x1F625;&#x1F494;.</p>
+<p>(Para que o significado fosse posto, inserimos a tag<strong> &lt;abbr&gt;</strong> e dentro dela, 'title=""'<br>
+    onde você adiciona todo o texto por trás da variação. A parte visual da seleção será editada no <abbr title="Cascading Style Sheets">CSS.)</abbr> </p>
+    
+    <h2 style="color: darkviolet;">Texto Invertido</h2>
+    <p><bdo dir="rtl">Socorram-me,subi no ônibus em Marrocos</bdo></p>
+    <p>Na frase acima, utilizasse da tag &lt;bdo&gt; em 'dir="<abbr title="right/left"><strong>rtl</strong></abbr>" (de trás para frente), mas também se utiliza da variação 'dir"<abbr title="left/right"><strong>ltr</strong></abbr>" (de frente para trás)</p>
+</body>
+
+</html>

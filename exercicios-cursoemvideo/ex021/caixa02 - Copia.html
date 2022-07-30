@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            background-color: aliceblue;
+        }
+        header{
+            background-color:red;
+            padding: 15px 0;
+            margin:0
+        }
+        h1{
+            text-align: center;
+            color:white;
+            text-shadow: 2px 1px black;
+        }
+        nav{
+            background-color:white;
+            height: 30px;
+            padding: 3px;
+            margin: 10px;
+            box-shadow:1px 1px 1px black ;
+        }
+        nav > a{
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+            margin-right: 30px;
+            height: 100%;
+            padding: 5px 10px 17px 10px;
+        }
+        nav > a:hover{
+           background-color: red;
+           color: white;  
+        }
+        main{
+            margin: 10px;
+            padding: 10px;
+            background-color:white;
+        }
+        p > small{
+            color:#666666;
+            opacity: 0.5;
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0;
+        }
+        article{
+            padding: 5px;
+        }
+        aside > p{
+            color: #666666;
+        }
+        p > a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Not1cias</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <p><a href="#">Esporte/ Política/ Tecnologia</a></p>
+        <section id="Home">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit suscipit esse dolorem. Animi nam maxime, laboriosam autem placeat porro ratione quas eius labore perferendis sunt pariatur voluptas facere eligendi quae.</p>
+                
+                <aside>
+                    <p>Artigo escrito por...</p>
+                </aside>
+        </section>
+        <hr>
+        <section id="Sobre">
+            <article>
+                <h2>Notícias sobre o Mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit suscipit esse dolorem. Animi nam maxime, laboriosam autem placeat porro ratione quas eius labore perferendis sunt pariatur voluptas facere eligendi quae.</p>
+
+                <aside>
+                    <p>Artigo escrito por...</p>
+                </aside>
+            </article>
+        </section>
+        <hr>
+        <section id="Ajuda">
+            <article>
+                <h2>Notícias sobre Vacas Voadores No Sul</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit suscipit esse dolorem. Animi nam maxime, laboriosam autem placeat porro ratione quas eius labore perferendis sunt pariatur voluptas facere eligendi quae.</p>
+                
+                <aside>
+                    <p>Artigo escrito por...</p>
+                </aside>
+        </section>
+    </main>
+    <footer>
+        <p><strong>Desenvolvido por @Sabrinaalh</strong></p>
+        <p><small>Todos os direito reservados desde...sempre.</small></p>
+    </footer>
+    
+</body>
+</html>

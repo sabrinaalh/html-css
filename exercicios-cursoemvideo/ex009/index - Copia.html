@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listas</title>
+ <link rel="stylesheet" href="style.css">
+  
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+  <h1 style="border: 2px solid black; background-color:#1c1939" >Trabalhando com Listas</h1>
+  <hr style="color: black;">
+  <h2 style="color: rgb(42, 17, 8);">Listas Ordenadas</h2>
+<p><small>Aquelas com que a ordem faz diferença!</small></p>
+<p>Para organiza-las, usamos a tag <abbr title="Orden List">&lt;ol&gt;</abbr><br> e para numera-la, tag &lt;li&gt; </p>
+<ol>
+  <li>Acordar. </li>
+  <li>Escovar os dentes;</li>
+  <li>Dar o c* na esquina;</li>
+  <li>Tirar o lulu do Free Fire.</li>
+  <li>Sair do boteco.</li> 
+</ol>
+<p>A abertura <mark>'type'</mark> dentro da tag OL, indica qual o tipo de numeração dessa lista,sendo:
+<pre>
+  1=1,2,3
+  A=A,B,C,D
+  a=a,b,c
+  I=I,II,III
+  i=i,ii,iii
+</pre>
+
+</p>
+EX:
+<ol type="I" start="3">
+  <li>Acordar. </li>
+  <li>Escovar os dentes;</li>
+  <li>Dar o c* na esquina;</li>
+  <li>Tirar o lulu do Free Fire.</li>
+  <li>Sair do boteco.</li> 
+</ol>
+<p>(OBS: também pode começar pelo 3, adicionando dentro do OL 'start="3"' como o exemplo acima.)</p>
+<p><small>O código acima, em seu nível mais básico, é assim:</small></p>
+<pre>
+  <p>
+    &lt;ol&gt;
+      &lt;li&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  </p>
+</pre>
+<h2 style="color: orangered;">Listas não-Ordenadas</h2>
+<p>Para listas não Ordenadas,usamos a tag &lt;ul&gt;, por exemplo:
+</p>
+<ul>
+<li>Facas.</li>
+<li>Terra.</li>
+<li>Terreno abandonado.
+<li>Macetinho.</li>
+</ul>
+<p>Nesse <mark>'type'</mark>, temos as opções:
+  <pre>
+    Disc= 'bolinha'
+    Circle='bolinha aberta'
+    Square='quadradin'
+  </pre>
+</p>
+<p>EX:
+  <ul type="circle">
+    <li>Facas.</li>
+    <li>Terra.</li>
+    <li>Terreno abandonado.
+    <li>Macetinho.</li>
+    </ul>
+</p>
+  <h2 style="color: orangered;">Listas Mistas 1.0</h2>
+    <p><strong>Idiomas</strong></p>
+  <ol>
+  <li>Aprendendo:</li>
+    <ol type="I">
+      <li>Inglês</li>
+      <li>Japonês</li>
+      <li>Libras</li>
+    </ol>
+  <li>Desejo aprender:</li>
+    <ol type="I" start="4">
+      <li>Chinês</li>
+      <li>Coreano</li>
+      <li>Espanhol</li>
+    </ol>
+  </ol>   
+  <strong>
+    <p>Minhas músicas favoritas: </p>
+  </strong>
+  <ol>
+    <li>Barões da Pisadinha:</li>
+    <ul type="disc">
+        <li>"Tá rocheda"</li>
+        <li>"Oi e Tchau"</li>
+        <ul>
+          <li>sem abraço nem beijo,comportamento de um exx casal&#x1F3B6;</li>
+        </ul>
+        <li><q>Acho que não</q></li>
+    </ul>
+    <li>Bonde do Maluco:</li>
+      <ul type="disc">
+        <li>"Não Vale Mais Chorar Por Ele"</li>
+          <ul>
+            <li>...ELE JAMAIS TI AMOUU&#x1F3B6;</li>
+          </ul>
+        <li>"Sai da Frente Rapaz"</li>
+        <li>"Pisa na Barata"</li>
+      </ul>
+  </ol>
+  <h2 style="color: orangered;">Lista de Definição</h2>
+    
+    <dl>
+      <dt>Termo:</dt>
+      <dd>Definição??</dd>
+    </dl>
+    <h3><em>Tô com preguiça de escrever,tá ai oh:</em></h3>
+      <pre>
+        <p>
+            &lt;dl&gt;
+              &lt;dt&gt;<del>Termo:</del>&lt;/dt&gt;
+              &lt;dd&gt;<del>Definição??</del>&lt;/dd&gt;
+            &lt;/dl&gt;
+        </p>
+      </pre>
+    
+  <p>EX:</p>
+    <dl>
+      <dt><ins>kID Bengala:</ins></dt>
+        <dd>Definição:Um grande ator Mundial de filmes de sucesso.Com um grande...<q>talento</q>. </dd>
+    </dl>
+
+
+<img src="𝐏𝐈𝐀𝐍𝐎_ - quatro.jpg" style="width: 200px;height: 250px;">
+  
+</body>
+</html>

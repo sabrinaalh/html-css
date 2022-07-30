@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Usando Links Externos</h1>
+        <dl>
+            <dt>O que são links externos?</dt>
+            <dd>São links para outros sites (fora os nossos).</dd>
+        </dl>
+        <p>Você pode acessar o PDF dessa aula no <a href="https://github.com/gustavoguanabara">repositório público no Github</a>.</p>
+        <p>Você também pode acessar o <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo/about"  target="_blank"  rel="external">canal gratuito no <abbr title="Youtube">YT</abbr></a> do <abbr title="Dono do 'Curso Em Vídeo'">Gustavo Guanabara</abbr>. </p>
+        <p>Para com que o link fosse contido no texto, ele foi envelopado e inserido na tag<em> &lt;a href="http://www.algumacoisa.com"&gt;Texto excolhido&lt;/a&gt;</p>  </strong>
+        <p>(DICA:Esse link vai para uma nova navegação, e provavelmente ele nunca mais irá voltar.
+        <br>Então, quando o link for externo, é recomendado usar dentro da tag A <strong>'target="_blank" e 'rel="external"</strong>. 
+        <br>Veja a diferença entre o Link do Github [sem] e o do Youtube [com])</p>
+    <h1>Usando links internos</h1>
+<p>Esta é a primeira página, para acessar a segunda,click <a href="pg002.html" rel="next">aqui</a>.</p>
+<p>(OBS: Tem que estar na mesma pasta para funcionar.
+    <br>Aperte [Ctrl}+[Espaço] e insira o nome da página.
+    <br> Ex: pg002.html.
+    <br>Logo em seguida, use o rel="next" para a primeira e rel="prev" para a segunda.)</p>
+
+
+    <li>Links para download</li>
+    <ul>
+        <li><a href="livro/10 - Ligações em toda parte (1).pdf" download="umlivro.pdf" type="application/pdf" target="external">Baixar livros em PDF</a></li>
+        <li><a href="imagem/memes para responder _).jpg" download="imagempoderosa.pdf" type="image/png">Baixe uma imagem lina para a tela de seu PC!</a></li>
+    </ul>
+</body>
+</html>

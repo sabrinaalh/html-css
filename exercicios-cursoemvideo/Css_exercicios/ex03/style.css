@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.flex-pai{
+    background: #d6ccc2;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content: center;
+   
+}
+/* Display:flex; 
+(Deixa o layout flexivel + dominio maior do layout).
+
+------------------------------------------------------------
+flex-direction::
+Deixa os itens em COLUNAS ou LINHAS (normal/reverso)
+
+    flex-direction: column;
+(Deixa os itens em bloco/ coluna única).
+
+
+    flex-direction: row;
+(Deixa os itens em linhas/ um-do-lado-do-outro).
+
+flex-direction: column-reverse;
+(Deixas os itens: reversos {em ordem e posição} em blocos).
+
+  flex-direction: row-reverse;
+  (Deixas os itens: reversos {em ordem e posição} em linhas).
+
+--------------------------------------------------------------
+flex-wrap: 
+Se os itens atingirem o "limite não-rolavél" da página, o item desce.
+
+    flex-wrap: nowrap;
+(Por padrão, não levará em consideração o tamanho da "div .flex-pai")
+
+     flex-wrap: wrap;
+(Quando atingir o tamanho limite, os itens irão para baixo)
+
+
+SHORTHAND
+
+flex-flox: row-wrap;
+
+-------------------------
+justify-content:
+Alinha os itens (EM HORIZONTAL)
+
+justify-content: flex-start;
+(Itens alinhados á esquerda {padrão})
+
+justify-content: flex-end;
+(Itens alinhados á direita {oposto})
+
+  justify-content: center;
+(Itens centralizados)
+
+ justify-content:space-between;
+(Deixa o item  em espaçamento uniforme).
+
+justify-content:space-around;
+(Deixa um espaçamento uniforme envolta do item)
+
+---------------------------------------------------------------
+aligh-items:
+Alinha os itens (EM VERTICAL)
+individualmente.
+
+
+ align-items: stretch;
+ (Padrão que deixa com o tamanho total da tela)
+
+  align-items: center;
+  (Pode dizer a posição dos itens {individualmente} em relação a parte vertical
+  da página)
+
+   align-items: flex-start;
+(Fica na parte de cima da "div pai")
+
+    align-items: flex-end;
+(Fica na parte de baixo da "div pai")
+
+
+
+ align-content:
+Alinha od itens na mesma posição (Vertical) porém agora EM CONJUNTO.
+
+
+
+
+
+*/
+
+@media  screen and (max-width:600px){
+    .flex-pai{
+        flex-direction: column;
+    }
+}
+
+.flex-pai div{
+    background:#ded6ce;
+    border: 5px solid #e3d5ca;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    flex-grow:1;
+    
+}
+
+/* flex-grow:
+Crescimentos das div de (1) forma uniforme*/

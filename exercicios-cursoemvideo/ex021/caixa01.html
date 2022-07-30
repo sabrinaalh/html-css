@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Caixas</title>
+    <style>
+        h1{
+            height: 300px;
+            width: 300px;
+            background-color:blue;
+            color: aliceblue;
+            border-width: 4px;
+            border-style: dotted;
+            border-color: white;
+            padding:5px 3px 5px 3px;
+            margin:auto;
+            outline: 3px solid pink;
+        }
+            
+            /*OBS: O sentido do Shorthand é como de um relógio.
+
+                Padding com 4 valores, esses são;top, right, bottom, left.
+
+                Padding com 3 valores, esses são; top, right and left, bottom.
+
+                Padding com apenas 2 valores, esses são; top and bottom, right and left*/
+        a{
+            border-top: 2px double blue;
+            border-bottom: 2px double blue;
+            text-decoration: none;
+            display: block;
+        }
+        a:visited{
+            color: pink;
+            border:none
+
+        }
+        p{
+            text-align: center;
+        }
+        h2{
+            font-size: 3em;
+            text-align: center;
+        }
+        h2 abbr{
+        text-decoration: underline;
+        color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h2>Título <abbr title="chulo
+        adjetivo
+        1.
+        que não é digno, elevado; grosseiro, rude">chulo</abbr></h1>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

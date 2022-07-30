@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Media Queries</h1>
+    <h2>Propriedade que controla os parámetros de Layout de cada tela.</h2>
+    <p>Vamos testar?</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="../ex02/img/img_pp.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="../ex02/img/img_m.png" type="image/png">
+        <img src="../ex02/img/img_gg.png" alt="Imagem Flexivel-GG(1200px ou mais)">
+    </picture>
+
+    <p class="p-smart"><small>(Obs: esse texto só aparecerá para <STRONG>SMARTPHONES</STRONG>!!!)</small></p>
+    <p class="p-desk">Esse, só para telas <STRONG>MUITOOO GRANDES</STRONG>!</p>
+    <p class="p-tablet">Esse é <em>especial</em> para Tablets &#x1F609.</p>
+
+    
+</body>
+</html>

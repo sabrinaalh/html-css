@@ -1,0 +1,76 @@
+h1, h2, p{
+    text-align: center;
+   
+}
+/*Smarthphones(600px para baixo)*/
+@media only screen and (max-width:600px){
+    body{
+        background-color:#ffff;
+    }
+    .p-desk{
+        display: none;
+    }
+    .p-tablet{
+        display: none;
+    }
+ 
+}
+
+
+/*Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets, 600px para cima)*/
+@media only screen and (min-width: 600px){
+    body{
+        background-color:#84dcc6;
+    }
+    .p-smart{
+        display: none;
+    }
+    .p-desk{
+    display: none;
+}
+}
+
+/*Dispositivos Médios (Tablets deitados, 768px para cima)*/
+@media only screen and (min-width: 768px){
+    body{
+        background-color:#a5ffd6;
+    }
+    .p-smart{
+        display: none;
+            }
+    .p-desk{
+        display: none;
+    }
+}
+
+/*Dispositivos Largos (Laptops, desktops, 992px para cima)*/
+@media only screen and (min-width: 992px){
+    body{
+        background-color:#ffa69e;
+    }
+    .p-smart{
+        display: none;
+            }
+    .p-tablet{
+        display: none;
+    }  
+    .p-desk{
+        display: inline;
+    }         
+}
+
+/*Super Largos (Telas maiores como laptops, desktops e até Tvs Smart, 1200px para cima)*/
+@media only screen and (min-width: 1200px){
+    body{
+        background-color:#ff686b;
+    }
+    .p-smart{
+        display: none;
+            }
+    .p-tablet{
+        display: none;
+    } 
+    .p-desk{
+        display: inline;
+    }       
+}

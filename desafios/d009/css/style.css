@@ -1,0 +1,33 @@
+body{
+    background-color: #181818;
+}
+h1{
+    color: #F7FFFF;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+    color: #F7FFFF;
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section{
+    margin: 0 20% 0 0;
+}
+iframe{
+    margin:0 0 0 250px;
+}
+.seta{
+    position: absolute;
+    background-color: transparent;
+    padding: 15px;
+    margin: 10px 0 0 590px;
+    box-shadow: 2px -2px 0 1px #F7FFFF inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
